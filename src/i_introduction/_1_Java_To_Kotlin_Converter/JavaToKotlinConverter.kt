@@ -11,7 +11,7 @@ fun todoTask1(collection: Collection<Int>): Nothing = util.TODO(
     """,
         references = { JavaCode1().task1(collection) })
 
-class JavaCode1ToKotlin : JavaCode() {
+class JavaCode1ToKotlin {
     fun task1(collection: Collection<Int>): String {
         val sb = StringBuilder()
         sb.append("{")
